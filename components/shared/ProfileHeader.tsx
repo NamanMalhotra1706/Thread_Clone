@@ -7,7 +7,7 @@ interface Props{
     username:string;
     imageUrl:string;
     bio:string;
-    type:'User' | 'Community';
+    type:'User' | 'Community' | string;
 }
 
 const ProfileHeader = ({
